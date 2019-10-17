@@ -12,5 +12,13 @@ error_reporting(E_ALL);
 require __DIR__ . '/../lib/functions.php';
 
 // l'exemple avec le header, à vous de jouer pour le reste
-getPart('header');
+// getPart('header');
 
+getContent();
+//  $_GET['pages.bio']  ;
+
+
+// getPart('footer');
+
+
+?>

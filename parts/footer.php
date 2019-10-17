@@ -1,1 +1,7 @@
-put some footer here
+
+
+ <footer>
+ <p>Dimitri Klopfstein Copyright ©</p>
+ </footer>
+    <script src="../public/app.js"></script>
+
