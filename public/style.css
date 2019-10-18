@@ -1,7 +1,14 @@
-* {
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
 }
 
 footer{
@@ -29,4 +36,21 @@ h5 {
 {
 	text-align: center;
 	margin-top: 50px;
+}
+p
+{
+	text-align: center;
+}
+form
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+input {
+	width: 10%
+}
+textarea {
+	width: 20%;
+
 }

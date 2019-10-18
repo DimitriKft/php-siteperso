@@ -1,16 +1,12 @@
-
-<header>
         <nav role="navigation">
             <div id="menuToggle"> 
                     <ul id="menu">
-                        <a href="./..pages/home"><li>Accueil</li></a>
-                        <a href="./../pages/bio"><li>ma Bio</li></a>
-                        <a href="../pages/contact"><li>Contact</li></a>
-                        <button href="./..pages/home">Accueil</button>
-                        <button>Contact</button>
+                        <a href="index.php?pages=home"><li>Accueil</li></a>
+                        <a href="index.php?pages=bio"><li>ma Bio</li></a>
+                        <a href="index.php?pages=contact"><li>Contact</li></a>
                     </ul>
             </div>
         </nav>
         <hr>
       
-    </header>
+

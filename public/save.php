@@ -1,0 +1,1 @@
+<?php echo '<p style="color: red;">' .  $_GET['nom'] . " "  . $_GET['prenom'] . '</p><p> Vous à écrit un message</p>' . " " .'<p style="color: red;">' .  $_GET['message'] . '</p><p> Son E-mail est : </p> <p style="color: red;">' . $_GET['mail'] . '</p>'; ?>

@@ -8,9 +8,7 @@
     <title>header</title>
 </head>
 <body>
-    <?php include('menu.php'); ?>
+    <?php include('menu.php');?>
     <h1>Dimitri Klopfstein</h1>
     <h2>Développeur web</h2>
     <h5>Bienvenue sur mon portfolio</h5>
-</body>
-</html>

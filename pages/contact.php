@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact</title>
-</head>
-<body>
-<?php include('../parts/header.php'); ?>
-<p>PAGE CONTACT</p>
-<?php include('../parts/footer.php'); ?>
-</body>
-</html>
+
+
+<h2>Contactez-moi</h2>
+
+
+
+<form action="save.php" metho="post" > 
+
+<label for="nom">Nom</label>
+<input type="text" name="nom"  placeholder="Votre nom">
+
+<label for="prenom">Prénom</label>
+<input type="text" name="prenom"  placeholder="Votre prenom">
+
+<label for="mail">E-mail</label>
+<input type="mail" name="mail"  placeholder="Votre E-mail">
+
+<label for="message">Message</label>
+<textarea name="message" placeholder="Votre message" cols="30" rows="10"></textarea>
+
+<input type="submit" value="Envoyer">
+
+</form>
+
